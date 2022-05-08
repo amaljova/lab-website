@@ -1,0 +1,10 @@
+export {default as Team} from './Team/team';
+export {default as Collab} from './Collab/collab';
+export {default as Contact} from './Contact/contact';
+export {default as Funding} from './Funding/funding';
+export {default as Milestones} from './Milestones/milestones';
+export {default as Positions} from './Positions/positions';
+export {default as Upcoming} from './Upcoming/upcoming';
+export {default as Publications} from './Publications/publications';
+export {default as About} from './About/about';
+export {default as WhatWeDo} from './WhatWeDo/WhatWeDo';
