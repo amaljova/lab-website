@@ -1,7 +1,7 @@
 import {Typography, Box} from '@mui/material';
 
 
-export default function TeamCard({name, about, department,src}) {
+export default function TeamCard({name, about,desig ,department,src}) {
   return (
     <Box sx={{ maxWidth: 300,
       display: 'flex',
@@ -15,8 +15,8 @@ export default function TeamCard({name, about, department,src}) {
     >
        <Box sx={
           {
-            height: '250px',
-            width: '250px',
+            height: '150px',
+            width: '150px',
             backgroundImage: `url(${src})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
@@ -25,9 +25,10 @@ export default function TeamCard({name, about, department,src}) {
        }
        elevation={24}
        ></Box>
-        <Typography>{name}</Typography>
-        <Typography>{about}</Typography>
-        <Typography>{department}</Typography>
+        <Typography align='center' variant='h6'>{name}</Typography>
+        <Typography align='center' varient='h7'>{about}</Typography>
+        <Typography align='center' varient='h8'>{desig}</Typography>
+        <Typography align='center' varient='h9'>{department}</Typography>
     </Box>
   )
 }

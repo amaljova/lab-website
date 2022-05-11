@@ -1,12 +1,12 @@
 export const collabdata = [{
-        institution: "MAASTRO clinic",
+        institution: "MAASTRO Clinic",
         name: "Dr Andre Dekker",
-        department: "_"
+        department: "Professor of Clinical Data Science",
     },
     {
-        institution: "MAASTRO clinic",
+        institution: "MAASTRO Clinic",
         name: "Dr Leonard Wee",
-        department: "_"
+        department: "Assistant Professor in Clinical Data Science",
     },
     {
         institution: "University of Surrey",

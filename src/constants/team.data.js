@@ -1,60 +1,57 @@
-import simon from "../images/simon.jpg";
-import balu from "../images/balu.jpg";
-import hannah from "../images/hannah.jpg";
-import avatar from "../images/avatar.png";
+import simon from "../images/team/simon.jpg";
+import balu from "../images/team/balu.jpg";
+import hannah from "../images/team/hannah.jpg";
+import avatar from "../images/team/avatar.png";
+import thomas from "../images/team/thomas.jpeg";
+import devkumar from "../images/team/devkumar.png";
+import sathya from "../images/team/sathya.jpg";
+import amal from "../images/team/amal.jpg";
 
 export const mainTeam = {
-    group: "Core Team",
-    subTeam: [{
-            title: "Lab Head",
-            members: [{
-                name: "Dr Simon Pavamani",
-                about: "Professor & Head",
-                department: "Radiation Oncology",
-                image: simon,
-            }],
+    title: "Lead Team",
+    members: [{
+            name: "Dr Simon Pavamani",
+            designation: "Professor & Head",
+            department: "Radiation Oncology",
+            image: simon,
+            about: "Lab Head",
         },
         {
-            title: "Clinical Lead in Radiomics and AI",
-            members: [{
-                name: "Dr Balu Krishna Sasidharan",
-                about: "Professor",
-                department: "Radiation Oncology",
-                image: balu,
-            }, ],
+            name: "Dr Balu Krishna Sasidharan",
+            designation: "Professor",
+            department: "Radiation Oncology",
+            image: balu,
+            about: "Clinical Lead in Radiomics and AI",
         },
         {
-            title: "Research Team",
-            members: [{
-                    name: "Dr Hannah Mary Thomas T",
-                    about: "Imaging Scientist",
-                    department: "",
-                    image: hannah,
-                },
-                {
-                    name: "Mr Amal Joseph Varghese",
-                    about: "Research Assistant",
-                    department: "",
-                    image: avatar,
-                },
-                {
-                    name: "Mr Sathya A",
-                    about: "Research Assistant",
-                    department: "",
-                    image: avatar,
-                },
-            ],
+            name: "Dr Hannah Mary Thomas T",
+            designation: "Imaging Scientist",
+            department: "Radiation Oncology",
+            image: hannah,
+            about: "Research Team"
         },
         {
-            title: "Computational Analyses Lead in Radiomics and AI",
-            members: [{
-                name: "Dr Devakumar D",
-                about: "Professor",
-                department: "Nuclear Medicine",
-                image: avatar,
-            }, ],
+            name: "Dr Devakumar D",
+            designation: "Professor",
+            department: "Nuclear Medicine",
+            image: devkumar,
+            about: "Computational Analysis Lead",
         },
-    ]
+        {
+            name: "Amal Joseph Varghese",
+            designation: "Research Assistant",
+            department: "Radiation Oncology",
+            image: amal,
+            about: "Research Team"
+        },
+        {
+            name: "Sathya A",
+            designation: "Research Assistant",
+            department: "Radiation Oncology",
+            image: sathya,
+            about: "Research Team"
+        },
+    ],
 };
 
 export const clinicalTeam = {
@@ -62,34 +59,32 @@ export const clinicalTeam = {
     subTeam: [{
             title: "Head and Neck Cancer & Lung Cancer",
             members: [{
-                    name: "Dr Balu Krishna Sasidharan",
-                    about: "Professor",
-                    department: "Radiation Oncology",
-                    image: avatar,
-                },
-                {
                     name: "Dr Aparna Irodi",
-                    about: "Professor",
-                    department: "Radiology",
+                    about: "",
+                    department: "General Surgery",
                     image: avatar,
-                },
-                {
-                    name: "Dr Justin Benjamin",
-                    about: "Assistant Professor",
-                    department: "Nuclear Medicine",
-                    image: avatar,
-                },
-                {
-                    name: "Dr Amit Tirkey",
-                    about: "Head and neck Surgery",
-                    department: "",
-                    image: avatar,
+                    designation: 'Professor',
                 },
                 {
                     name: "Dr Rajiv Micheal",
-                    about: "Head and neck Surgery",
-                    department: "",
+                    about: "",
+                    department: "General Surgery",
                     image: avatar,
+                    designation: 'Professor',
+                },
+                {
+                    name: "Dr Amit Tirkey",
+                    about: "",
+                    department: "General Surgery",
+                    image: avatar,
+                    designation: 'Professor',
+                },
+                {
+                    name: "Dr Justin Benjamin",
+                    about: "",
+                    department: "Nuclear Medicine",
+                    image: avatar,
+                    designation: 'Assistant Professor',
                 },
             ]
         },
@@ -97,27 +92,31 @@ export const clinicalTeam = {
             title: "Rectal Cancer",
             members: [{
                     name: "Dr Jeba Karunya",
-                    about: "Associate Professor",
+                    about: "",
                     department: "Radiation Oncology",
                     image: avatar,
+                    designation: 'Assistant Professor',
                 },
                 {
-                    name: "Dr Thomas Ram",
-                    about: "Professor",
+                    name: "Dr Thomas Samuel",
+                    about: "",
                     department: "Radiation Oncology",
-                    image: avatar,
+                    image: thomas,
+                    designation: 'Professor',
                 },
                 {
                     name: "Dr Arvind S",
-                    about: "Assistant Professor",
+                    about: "",
                     department: "Radiation Oncology",
                     image: avatar,
+                    designation: 'Assistant Professor',
                 },
                 {
                     name: "Dr Neenu Oliver John",
-                    about: "Asst Professor",
+                    about: "",
                     department: "Radiation Oncology",
                     image: avatar,
+                    designation: 'Assistant Professor',
                 },
             ]
         },
@@ -125,55 +124,56 @@ export const clinicalTeam = {
             title: "Pituitary Adenomas",
             members: [{
                     name: "Dr Ari Chacko",
-                    about: "Former Professor",
+                    about: "",
                     department: "Neurosurgery",
                     image: avatar,
+                    designation: 'Professor',
                 },
                 {
                     name: "Dr Abhijit Honavar",
-                    about: "Resident",
+                    about: "",
                     department: "Neurosurgery",
                     image: avatar,
+                    designation: 'Resident',
                 },
                 {
                     name: "Dr Geetha Chacko",
-                    about: "Professor and Head",
+                    about: "",
                     department: "Pathology",
                     image: avatar,
+                    designation: 'Professor and Head',
                 },
                 {
                     name: "Dr Anita Jasper",
-                    about: "Professor",
+                    about: "",
                     department: "Radiology",
                     image: avatar,
+                    designation: 'Professor',
                 },
             ]
         },
         {
             title: "e-PROMS",
             members: [{
-                    name: "Dr Balu Krishna Sasidharan",
-                    about: "Professor",
-                    department: "Radiation Oncology",
-                    image: avatar,
-                },
-                {
                     name: "Dr Nihal Thomas",
-                    about: "Professor",
+                    about: "",
                     department: "Endocrinology",
                     image: avatar,
+                    designation: 'Professor',
                 },
                 {
                     name: "Dr Samuel Hansdak",
-                    about: "Lifestyle Medicine",
-                    department: "",
+                    about: "",
+                    department: "Lifestyle Medicine",
                     image: avatar,
+                    designation: '',
                 },
                 {
                     name: "Dr Joy John Mammen",
-                    about: "Bioinformatics",
-                    department: "",
+                    about: "",
+                    department: "Immunohematology & Transfusion Medicine",
                     image: avatar,
+                    designation: 'Professor',
                 },
             ]
         },

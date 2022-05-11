@@ -1,55 +1,35 @@
+import ApprovalRoundedIcon from '@mui/icons-material/ApprovalRounded';
+import AccountBalanceRoundedIcon from '@mui/icons-material/AccountBalanceRounded';
+import GroupsRoundedIcon from '@mui/icons-material/GroupsRounded';
+import StorageRoundedIcon from '@mui/icons-material/StorageRounded';
+
+const Approval = < ApprovalRoundedIcon / > ;
+const Lab = < AccountBalanceRoundedIcon / > ;
+const Collab = < GroupsRoundedIcon / > ;
+const Data = < StorageRoundedIcon / > ;
+
 export const milestonesData = [{
         title: "Approval- DBT Wellcome Trust",
         year: "2019",
-        events: [
-            "Radiomics based biomarkers for HNC",
-        ]
+        icon: Approval,
     },
     {
         title: "Quantitative Imaging and AI Lab",
         year: "2020",
-        events: [
-            "Infrastructure building",
-            " HNC Image acquisition standardization",
-            "HNC outcome prediction modelling",
-            "I-DAIR e-PROM concept note approved",
-        ]
+        icon: Lab,
+
     },
     {
         title: "Collaborations and projects",
         year: "2021",
-        events: [
-            "MRI based Pituitary adenoma classification",
-            "CT/ MRI based Rectal Cancer outcome prediction modelling",
-            "CBCT based pneumonitis prediction",
-            "MoU - MAASTRO",
-            "MoU - I-DAIR ",
-        ]
+        icon: Collab,
+
     },
     {
         title: "Multi-institutional Data",
         year: "2022",
-        events: [
-            "Validation of models with public and private datasets",
-            "Validation of Rectal cancer prediction models",
-            "Radiomics feature stability experiments",
-            "I-DAIR e-PROM project launch",
-        ]
+        icon: Data,
+
     },
-    {
-        title: "Next steps",
-        year: "2023",
-        events: [
-            "Deep learning/ transfer learning models for HNC",
-            "Clinical tests for e-PROM Software",
-        ]
-    },
-    {
-        title: "Next steps",
-        year: "2024",
-        events: [
-            "Multi-institutional clinical trials for radiomic signature validation",
-            "More funding",
-        ]
-    },
+
 ];
