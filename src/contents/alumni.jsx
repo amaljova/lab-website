@@ -1,6 +1,6 @@
 import {Container,Typography,Grid} from '@mui/material'
 import {Section} from '../components';
-import {alumniData} from "../constants/alumni.data";
+import {alumniData} from "../data/alumni.data";
 
 export default function Alumni() {
   return (

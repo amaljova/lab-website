@@ -24,24 +24,13 @@ const Header = (props) => {
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  // const handleOpenUserMenu = (event) => {
-  //   setAnchorElUser(event.currentTarget);
-  // };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  // const handleCloseUserMenu = () => {
-  //   setAnchorElUser(null);
-  // };
-
-
   function ElevationScroll(props) {
     const { children, window } = props;
-    // Note that you normally won't need to set the window ref as useScrollTrigger
-    // will default to window.
-    // This is only being set here because the demo is in an iframe.
     const trigger = useScrollTrigger({
       disableHysteresis: true,
       threshold: 0,
@@ -49,17 +38,13 @@ const Header = (props) => {
     });
 
     return cloneElement(children, {
-      elevation: trigger ? 1 : 0,
+      elevation: trigger ? 2 : 0,
       position: trigger ? 'fixed' : 'relative',
     });
   }
 
   ElevationScroll.propTypes = {
     children: PropTypes.element.isRequired,
-    /**
-     * Injected by the documentation to work in an iframe.
-     * You won't need it on your project.
-     */
     window: PropTypes.func,
   };
 

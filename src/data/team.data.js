@@ -59,6 +59,20 @@ export const clinicalTeam = {
     subTeam: [{
             title: "Head and Neck Cancer & Lung Cancer",
             members: [{
+                    name: "Dr Rajesh I",
+                    about: "",
+                    department: "Radiation Oncology",
+                    image: avatar,
+                    designation: 'Professor',
+                },
+                {
+                    name: "Dr Manu Mathew",
+                    about: "",
+                    department: "Radiation Oncology",
+                    image: avatar,
+                    designation: 'Associate Professor',
+                },
+                {
                     name: "Dr Aparna Irodi",
                     about: "",
                     department: "General Surgery",
@@ -86,6 +100,7 @@ export const clinicalTeam = {
                     image: avatar,
                     designation: 'Assistant Professor',
                 },
+
             ]
         },
         {

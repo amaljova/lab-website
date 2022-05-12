@@ -1,5 +1,5 @@
 import { TeamCard } from '../components'
-import { mainTeam, clinicalTeam } from '../constants/team.data';
+import { mainTeam, clinicalTeam } from '../data/team.data';
 import { Section } from '../components';
 import { Typography, Grid, Container } from '@mui/material';
 

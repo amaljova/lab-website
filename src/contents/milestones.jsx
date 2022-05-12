@@ -1,4 +1,4 @@
-import {milestonesData} from '../constants/milestones.data';
+import {milestonesData} from '../data/milestones.data';
 import {Section} from '../components';
 import {MilestoneItem} from '../components';
 import Timeline from '@mui/lab/Timeline';

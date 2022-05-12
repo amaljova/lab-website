@@ -1,4 +1,4 @@
-import { whatWeDo } from '../constants/whatWeDo.data';
+import { whatWeDo } from '../data/whatWeDo.data';
 import { Section } from '../components';
 import { Typography, Container } from '@mui/material';
 
@@ -9,7 +9,6 @@ export default function WhatWeDo() {
         {whatWeDo.map((item, index) => (
           <Container key={index}>
             <Typography variant='h5' align='left' gutterBottom>{item.title}</Typography>
-
             {
               item.points.map((p, idx) => (
                 <ul key={idx}

@@ -1,4 +1,4 @@
-import {upcomingEvents} from '../constants/upcoming.data';
+import {upcomingEvents} from '../data/upcoming.data';
 import {Section} from '../components';
 import {Typography, Container,Paper} from '@mui/material';
 
