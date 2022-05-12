@@ -10,7 +10,7 @@ export default function collab() {
           {collabdata.map((collab, index) => (
             <Grid item xs={12} sm={6} md={6} key={index}>
               <Card key={index}
-              elevation={1}
+              elevation={0}
               sx={{
                   minHeight: '300px',
                   minWidth: 300 ,
@@ -19,7 +19,7 @@ export default function collab() {
                 <Typography variant='h5' align="center" sx={{fontWeight: 'bold'}} gutterBottom>{collab.institution}</Typography>
                 {
                   collab.people.map((person, index) => (
-                    <Paper key={index} sx={{m:'10px',p:'10px', backgroundColor:'#b8b8b865'}}>
+                    <Paper key={index} sx={{m:'10px',p:'10px', backgroundColor:'#b8b8b865'}} elevation={0}>
                       <Typography variant='h6' gutterBottom>{person.name}</Typography>
                       <Typography variant='h7'gutterBottom>{person.department}</Typography>
                     </Paper>
