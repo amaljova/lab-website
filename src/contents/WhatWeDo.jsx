@@ -10,13 +10,13 @@ export default function WhatWeDo() {
           <Container key={index}>
             <Typography variant='h5' align='left' gutterBottom>{item.title}</Typography>
             {
-              item.points.map((p, idx) => (
+              item.points.map((point, idx) => (
                 <ul key={idx}
                   sx={{
-                    p: '20px'
+                    // p: '20px'
                   }}>
-                  <li><Typography variant='h6' >{p.tag}</Typography></li>
-                  <Typography variant='body2' >{p.sub}</Typography>
+                  <li><Typography variant='h6' >{point.tag}</Typography></li>
+                  <Typography variant='body2' >{point.sub}</Typography>
                 </ul>
               ))
             }

@@ -6,7 +6,7 @@ export default function funding() {
   return (
     <div id="funding">
       <Section title='Funding'>
-      <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
           {fundingData.map((item, index) => (
             <Grid item xs={12} sm={4} md={4} key={index}>
               <Card sx={{ maxWidth: 345 }} elevation={0}>
@@ -19,7 +19,7 @@ export default function funding() {
                 />
                 <CardContent>
                   <Typography variant='body1'
-                    sx={{fontWeight: 'bold'}} align='center' gutterBottom>{item.title}</Typography>
+                    sx={{ fontWeight: 'bold' }} align='center' gutterBottom>{item.title}</Typography>
                 </CardContent>
               </Card>
             </Grid>

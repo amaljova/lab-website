@@ -10,9 +10,9 @@ export default function team() {
       <Section title="Our Team">
         <Container key='main'>
           <Typography variant='h4' align='center' color='textSecondary' sx={{
-            fontWeight: 'bold',
-            m: '40px'
-          }} gutterBottom>{mainTeam.title}</Typography >
+            fontWeight: 'bold', my: '2.5rem'
+          }}
+            gutterBottom>{mainTeam.title}</Typography >
           <Grid container spacing={12}
             direction="row"
             justifyContent="space-around"
@@ -27,7 +27,8 @@ export default function team() {
                     department={member.department}
                     src={member.image}
                     desig={member.designation}
-                  /></Grid>
+                  />
+                </Grid>
               ))
             }
           </Grid>
@@ -35,8 +36,7 @@ export default function team() {
         <Container key='clinical'>
 
           <Typography variant='h4' align='center' color='textSecondary' sx={{
-            fontWeight: 'bold',
-            m: '40px'
+            fontWeight: 'bold', my: '2.5rem'
           }} gutterBottom>{clinicalTeam.group}</Typography >
 
           {
@@ -46,11 +46,10 @@ export default function team() {
                   variant='h5'
                   align='center'
                   sx={{
-                    fontWeight: 'bold',
-                    m: '40px'
+                    fontWeight: 'bold', my: '2.5rem'
                   }}
                   gutterBottom>
-                  {sub.title}
+                  {sub.title} {'Team'}
                 </Typography >
                 <Grid container spacing={12}
                   direction="row"
@@ -59,7 +58,7 @@ export default function team() {
                 >
                   {
                     sub.members.map((member, idx) => (
-                      <Grid item key={idx} align>
+                      <Grid item key={idx}>
                         <TeamCard
                           name={member.name}
                           about={member.about}

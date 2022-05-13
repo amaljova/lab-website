@@ -1,10 +1,10 @@
-import {Section} from '../components';
+import { Section } from '../components';
 
 export default function publications() {
   return (
     <div id="publications">
-    <Section title='Publications'>
-    </Section>
+      <Section title='Publications'>
+      </Section>
     </div>
   )
 }
