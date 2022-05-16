@@ -17,7 +17,7 @@ export default function Hero() {
           flexDirection: 'column',
           alignItems: 'left',
           justifyContent: 'space-evenly',
-          height: '80vh',
+          height: '70vh',
           backgroundImage: `url(${background})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'contain',
