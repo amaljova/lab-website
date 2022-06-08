@@ -17,6 +17,12 @@ export default function team() {
             direction="row"
             justifyContent="space-around"
             alignItems="center"
+            sx={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              textAlign: 'center',
+            }}
           >
             {
               mainTeam.members.map((member, idx) => (
@@ -55,6 +61,12 @@ export default function team() {
                   direction="row"
                   justifyContent="space-around"
                   alignItems="center"
+                  sx={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    textAlign: 'center',
+                  }}
                 >
                   {
                     sub.members.map((member, idx) => (

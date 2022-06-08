@@ -4,6 +4,7 @@ import { Collab, Funding, Upcoming, About, WhatWeDo, Team, Milestones, Contact, 
 import { CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme/qirail.theme';
+import Gallery from './gallery/gallery';
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       <Collab />
       <Funding />
       <Upcoming />
+      <Gallery/>
       <Positions />
       <Contact />
       <Footer />

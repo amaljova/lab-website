@@ -8,7 +8,7 @@ export default function TeamCard({ name, about, desig, department, src }) {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-      justifyContent: 'center',
+      // justifyContent: 'center',
       margin: '1rem',
       borderRadius: '0.5rem',
     }}
@@ -19,6 +19,7 @@ export default function TeamCard({ name, about, desig, department, src }) {
           height: '150px',
           width: '150px',
           backgroundImage: `url(${src})`,
+          loading:"lazy",
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           borderRadius: '50%',

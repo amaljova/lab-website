@@ -6,6 +6,7 @@ import thomas from "../images/team/thomas.jpeg";
 import devkumar from "../images/team/devkumar.png";
 import sathya from "../images/team/sathya.jpg";
 import amal from "../images/team/amal.jpg";
+import arun from "../images/team/arun.jpg";
 
 export const mainTeam = {
     title: "Lead Team",
@@ -80,16 +81,16 @@ export const clinicalTeam = {
                     designation: 'Professor',
                 },
                 {
-                    name: "Dr Rajiv Micheal",
+                    name: "Dr Rajiv Michael",
                     about: "",
-                    department: "General Surgery",
+                    department: "Head & Neck Surgery",
                     image: avatar,
                     designation: 'Professor',
                 },
                 {
                     name: "Dr Amit Tirkey",
                     about: "",
-                    department: "General Surgery",
+                    department: "Head & Neck Surgery",
                     image: avatar,
                     designation: 'Professor',
                 },
@@ -106,18 +107,18 @@ export const clinicalTeam = {
         {
             title: "Rectal Cancer",
             members: [{
-                    name: "Dr Jeba Karunya",
-                    about: "",
-                    department: "Radiation Oncology",
-                    image: avatar,
-                    designation: 'Assistant Professor',
-                },
-                {
                     name: "Dr Thomas Samuel",
                     about: "",
                     department: "Radiation Oncology",
                     image: thomas,
                     designation: 'Professor',
+                },
+                {
+                    name: "Dr Jeba Karunya",
+                    about: "",
+                    department: "Radiation Oncology",
+                    image: avatar,
+                    designation: 'Associate Professor',
                 },
                 {
                     name: "Dr Arvind S",
@@ -170,18 +171,11 @@ export const clinicalTeam = {
         {
             title: "e-PROMS",
             members: [{
-                    name: "Dr Nihal Thomas",
+                    name: "Dr Balu Krishna Sasidharan",
+                    designation: "Professor",
+                    department: "Radiation Oncology",
+                    image: balu,
                     about: "",
-                    department: "Endocrinology",
-                    image: avatar,
-                    designation: 'Professor',
-                },
-                {
-                    name: "Dr Samuel Hansdak",
-                    about: "",
-                    department: "Lifestyle Medicine",
-                    image: avatar,
-                    designation: '',
                 },
                 {
                     name: "Dr Joy John Mammen",
@@ -190,6 +184,35 @@ export const clinicalTeam = {
                     image: avatar,
                     designation: 'Professor',
                 },
+                {
+                    name: "Arun Zachariah",
+                    about: "",
+                    department: "",
+                    image: arun,
+                    designation: '',
+                },
+                {
+                    name: "Dr Hannah Mary Thomas T",
+                    designation: "Imaging Scientist",
+                    department: "Radiation Oncology",
+                    image: hannah,
+                    about: ""
+                },
+                // {
+                //     name: "Dr Nihal Thomas",
+                //     about: "",
+                //     department: "Endocrinology",
+                //     image: avatar,
+                //     designation: 'Professor',
+                // },
+                // {
+                //     name: "Dr Samuel Hansdak",
+                //     about: "",
+                //     department: "Lifestyle Medicine",
+                //     image: avatar,
+                //     designation: '',
+                // },
+
             ]
         },
     ]

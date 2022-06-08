@@ -16,7 +16,7 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import PropTypes from 'prop-types';
 
 
-const pages = ['About', 'Team', 'Milestones', 'Collaborations', 'Funding', 'Upcoming', 'Contact'];
+const pages = ['About', 'Team', 'Milestones', 'Collaborations', 'Funding', 'Upcoming','Gallery', 'Contact'];
 
 const Header = (props) => {
   const [anchorElNav, setAnchorElNav] = useState(null);
