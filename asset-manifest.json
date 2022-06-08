@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/qirail/static/js/main.ddf138fa.js",
+    "main.js": "/qirail/static/js/main.4bf184d2.js",
     "static/media/simon.jpg": "/qirail/static/media/simon.09c34aed03deaf6567e6.jpg",
     "static/media/hannah.jpg": "/qirail/static/media/hannah.4efb525de936db4f9ca7.jpg",
     "static/media/thomas.jpeg": "/qirail/static/media/thomas.32a142d447a5bfda34a9.jpeg",
@@ -17,9 +17,9 @@
     "static/media/avatar.png": "/qirail/static/media/avatar.11954ea5715fa86177e1.png",
     "static/media/Wireframe-Head.svg": "/qirail/static/media/Wireframe-Head.89a8af17d954ea082772725b2b650ef8.svg",
     "index.html": "/qirail/index.html",
-    "main.ddf138fa.js.map": "/qirail/static/js/main.ddf138fa.js.map"
+    "main.4bf184d2.js.map": "/qirail/static/js/main.4bf184d2.js.map"
   },
   "entrypoints": [
-    "static/js/main.ddf138fa.js"
+    "static/js/main.4bf184d2.js"
   ]
 }
