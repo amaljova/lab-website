@@ -9,6 +9,16 @@ let theme = createTheme(
                 darker: '#000000',
             },
         },
+        typography: {
+            fontFamily: [
+            //   "Nunito",
+            //   "Roboto",
+            //   "Helvetica Neue",
+            //   "Arial",
+            //   "sans-serif",
+              "Poppins",
+            ].join(",")
+          }
     }
 
 );

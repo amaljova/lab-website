@@ -20,13 +20,13 @@ export const milestonesData = [{
 
     },
     {
-        title: "Collaborations and projects",
+        title: "Approval- I-DAIR",
         year: "2021",
         icon: Collab,
 
     },
     {
-        title: "Multi-institutional Data",
+        title: "Multi-institutional Collaborations",
         year: "2022",
         icon: Data,
 

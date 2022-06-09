@@ -16,7 +16,7 @@ export const collabdata = [{
         institution: "University of Surrey",
         people: [{
                 name: "Dr Philip Evans",
-                department: "Centre for Speech and Vision"
+                department: "Centre for Vision, Speech and Signal Processing",
             }
 
         ]

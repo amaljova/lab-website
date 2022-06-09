@@ -2,11 +2,16 @@ import simon from "../images/team/simon.jpg";
 import balu from "../images/team/balu.jpg";
 import hannah from "../images/team/hannah.jpg";
 import avatar from "../images/team/avatar.png";
+import jeba from "../images/team/jeba.png";
 import thomas from "../images/team/thomas.jpeg";
 import devkumar from "../images/team/devkumar.png";
 import sathya from "../images/team/sathya.jpg";
 import amal from "../images/team/amal.jpg";
 import arun from "../images/team/arun.jpg";
+import amit from "../images/team/amit.jpg";
+import neenu from "../images/team/neenu.jpg";
+import manu from "../images/team/manu.jpg";
+import arvind from "../images/team/arvind.jpg";
 
 export const mainTeam = {
     title: "Lead Team",
@@ -70,13 +75,13 @@ export const clinicalTeam = {
                     name: "Dr Manu Mathew",
                     about: "",
                     department: "Radiation Oncology",
-                    image: avatar,
+                    image: manu,
                     designation: 'Associate Professor',
                 },
                 {
                     name: "Dr Aparna Irodi",
                     about: "",
-                    department: "General Surgery",
+                    department: "Radiodiagnosis",
                     image: avatar,
                     designation: 'Professor',
                 },
@@ -91,7 +96,7 @@ export const clinicalTeam = {
                     name: "Dr Amit Tirkey",
                     about: "",
                     department: "Head & Neck Surgery",
-                    image: avatar,
+                    image: amit,
                     designation: 'Professor',
                 },
                 {
@@ -117,21 +122,21 @@ export const clinicalTeam = {
                     name: "Dr Jeba Karunya",
                     about: "",
                     department: "Radiation Oncology",
-                    image: avatar,
+                    image: jeba,
                     designation: 'Associate Professor',
                 },
                 {
                     name: "Dr Arvind S",
                     about: "",
                     department: "Radiation Oncology",
-                    image: avatar,
+                    image: arvind,
                     designation: 'Assistant Professor',
                 },
                 {
                     name: "Dr Neenu Oliver John",
                     about: "",
                     department: "Radiation Oncology",
-                    image: avatar,
+                    image: neenu,
                     designation: 'Assistant Professor',
                 },
             ]
@@ -187,9 +192,9 @@ export const clinicalTeam = {
                 {
                     name: "Arun Zachariah",
                     about: "",
-                    department: "",
+                    department: "Pricipal's Office - Education Technology Unit",
                     image: arun,
-                    designation: '',
+                    designation: "Systems Manager",
                 },
                 {
                     name: "Dr Hannah Mary Thomas T",

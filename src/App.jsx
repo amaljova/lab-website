@@ -15,12 +15,12 @@ export default function App() {
       <BackToTop />
       <Hero />
       <About />
-      <WhatWeDo />
       <Team />
-      <Alumni />
+      <WhatWeDo />
       <Milestones />
       <Collab />
       <Funding />
+      <Alumni />
       <Upcoming />
       <Gallery/>
       <Positions />

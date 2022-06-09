@@ -17,7 +17,7 @@ export default function Hero() {
           flexDirection: 'column',
           alignItems: 'left',
           justifyContent: 'space-evenly',
-          height: '70vh',
+          height: '90vh',
           backgroundImage: `url(${background})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'contain',
@@ -32,7 +32,7 @@ export default function Hero() {
         collapsedHeight={50}
       >
         <Typography
-          variant='h1'
+          variant='h2'
           gutterBottom
           sx={{
             fontWeight: 900,
@@ -41,13 +41,13 @@ export default function Hero() {
           color='textPrimary'
           align='left'
         >
-          The Quantitative Imaging<br /> and Artificial Intelligence<br /> Lab
+          Quantitative Imaging<br /> and Artificial Intelligence<br /> Lab
         </Typography>
         <Typography
-          variant='h4'
+          variant='h5'
           color='textSecondary'
           gutterBottom>
-          Research group in the Radiation Oncology Department @ Christian Medical College Vellore.
+          Research group in the Radiation Oncology Department <br/>@ Christian Medical College Vellore.
         </Typography>
         <Container maxWidth='xl' sx={
           {
@@ -60,7 +60,7 @@ export default function Hero() {
             <IconButton>
               <ExpandCircleDownIcon sx={
                 {
-                  fontSize: '4rem',
+                  fontSize: '3rem',
                 }
               } />
             </IconButton>

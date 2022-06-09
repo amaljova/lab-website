@@ -15,7 +15,7 @@ export default function about() {
             }
           }
         >
-          The Quanititaive Imaging Research and Artificial Intelligence Lab
+          Quanititaive Imaging Research and Artificial Intelligence Lab
           was started in Radiation Oncology department in Christian Medical College (CMC), Vellore in 2020 .
           Our vision is to be a premier laboratory of artificial intelligence (AI),
           quantitative imaging and Radiation Oncology in India.
