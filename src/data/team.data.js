@@ -3,6 +3,7 @@ import balu from "../images/team/balu.jpg";
 import hannah from "../images/team/hannah.jpg";
 import avatar from "../images/team/avatar.png";
 import jeba from "../images/team/jeba.png";
+import rajesh from "../images/team/rajesh.png";
 import thomas from "../images/team/thomas.jpeg";
 import devkumar from "../images/team/devkumar.png";
 import sathya from "../images/team/sathya.jpg";
@@ -12,6 +13,7 @@ import amit from "../images/team/amit.jpg";
 import neenu from "../images/team/neenu.jpg";
 import manu from "../images/team/manu.jpg";
 import arvind from "../images/team/arvind.jpg";
+import justin from "../images/team/justin.jpg";
 
 export const mainTeam = {
     title: "Lead Team",
@@ -68,7 +70,7 @@ export const clinicalTeam = {
                     name: "Dr Rajesh I",
                     about: "",
                     department: "Radiation Oncology",
-                    image: avatar,
+                    image: rajesh,
                     designation: 'Professor',
                 },
                 {
@@ -103,7 +105,7 @@ export const clinicalTeam = {
                     name: "Dr Justin Benjamin",
                     about: "",
                     department: "Nuclear Medicine",
-                    image: avatar,
+                    image: justin,
                     designation: 'Assistant Professor',
                 },
 

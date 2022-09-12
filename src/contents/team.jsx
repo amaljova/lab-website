@@ -7,7 +7,7 @@ import { Typography, Grid, Container } from '@mui/material';
 export default function team() {
   return (
     <div id="team">
-      <Section title="Who we are">
+      <Section title="Who We Are">
         <Container key='main'>
           <Typography variant='h4' align='center' color='textSecondary' sx={{
             fontWeight: 'bold', my: '2.5rem'
