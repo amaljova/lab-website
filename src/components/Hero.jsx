@@ -41,7 +41,7 @@ export default function Hero() {
           color='textPrimary'
           align='left'
         >
-          Quantitative Imaging<br /> and Artificial Intelligence<br /> Lab
+          Quantitative Imaging Research &<br />Artificial Intelligence Lab
         </Typography>
         <Typography
           variant='h5'

@@ -5,6 +5,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 import { Section } from '../components';
 import maastro1 from "./img/maastro1.jpeg";
 import maastro2 from "./img/maastro2.jpeg";
+import ari_farewell from "./img/ari_farewell.jpg";
 
 
 export default function Gallery() {
@@ -40,20 +41,8 @@ const itemData = [
     title: 'maastro2',
   },
   {
-    img: maastro1,
-    title: 'maastro1',
-  },
-  {
-    img: maastro2,
-    title: 'maastro2',
-  },
-  {
-    img: maastro1,
-    title: 'maastro1',
-  },
-  {
-    img: maastro2,
-    title: 'maastro2',
-  },
+    img: ari_farewell,
+    title: 'ari_farewell',
+  }
  
 ];

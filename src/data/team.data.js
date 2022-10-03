@@ -205,13 +205,13 @@ export const clinicalTeam = {
                     image: hannah,
                     about: ""
                 },
-                // {
-                //     name: "Dr Nihal Thomas",
-                //     about: "",
-                //     department: "Endocrinology",
-                //     image: avatar,
-                //     designation: 'Professor',
-                // },
+                {
+                    name: "Sharon Gikku George",
+                    about: "Research Coordinator",
+                    department: "Radiation Oncology",
+                    image: avatar,
+                    designation: '',
+                },
                 // {
                 //     name: "Dr Samuel Hansdak",
                 //     about: "",
