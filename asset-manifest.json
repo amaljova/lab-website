@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/qirail/static/js/main.262eb198.js",
+    "main.js": "/qirail/static/js/main.083638fc.js",
     "static/media/neenu.jpg": "/qirail/static/media/neenu.4d9e790f1513d67ac945.jpg",
     "static/media/arvind.jpg": "/qirail/static/media/arvind.bdab178699c4c4015cea.jpg",
     "static/media/hannah.jpg": "/qirail/static/media/hannah.4efb525de936db4f9ca7.jpg",
     "static/media/ari_farewell.jpg": "/qirail/static/media/ari_farewell.bd95b963f7aaf19e6214.jpg",
     "static/media/thomas.jpeg": "/qirail/static/media/thomas.32a142d447a5bfda34a9.jpeg",
+    "static/media/mgru.jpeg": "/qirail/static/media/mgru.a3a6a6026fa7930a2082.jpeg",
     "static/media/arun.jpg": "/qirail/static/media/arun.98b224589728640d3ecc.jpg",
     "static/media/simon.jpg": "/qirail/static/media/simon.3bb1fac84d4d2fa1c83c.jpg",
     "static/media/devkumar.png": "/qirail/static/media/devkumar.915d84849f4607531dea.png",
@@ -25,9 +26,9 @@
     "static/media/avatar.png": "/qirail/static/media/avatar.11954ea5715fa86177e1.png",
     "static/media/Wireframe-Head.svg": "/qirail/static/media/Wireframe-Head.89a8af17d954ea082772725b2b650ef8.svg",
     "index.html": "/qirail/index.html",
-    "main.262eb198.js.map": "/qirail/static/js/main.262eb198.js.map"
+    "main.083638fc.js.map": "/qirail/static/js/main.083638fc.js.map"
   },
   "entrypoints": [
-    "static/js/main.262eb198.js"
+    "static/js/main.083638fc.js"
   ]
 }
