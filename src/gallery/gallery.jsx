@@ -6,6 +6,7 @@ import { Section } from '../components';
 import maastro1 from "./img/maastro1.jpeg";
 import maastro2 from "./img/maastro2.jpeg";
 import ari_farewell from "./img/ari_farewell.jpg";
+import mgru from "./img/mgru.jpeg";
 
 
 export default function Gallery() {
@@ -43,6 +44,10 @@ const itemData = [
   {
     img: ari_farewell,
     title: 'ari_farewell',
+  },
+  {
+    img: mgru,
+    title: 'mgru',
   }
  
 ];
